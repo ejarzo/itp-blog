@@ -11,7 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -31,7 +31,6 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
         }}
       >
@@ -50,19 +49,39 @@ const Layout = ({ location, title, children }) => {
   return (
     <div
       style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        background: "#EEE",
+        border: "10px solid #222",
       }}
     >
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
+      <div
+        style={{
+          border: "10px solid #444",
+        }}
+      >
+        <div
+          style={{
+            minHeight: "calc(100vh - 40px)",
+            border: "10px solid #666",
+          }}
+        >
+          <div
+            style={{
+              marginLeft: `auto`,
+              marginRight: `auto`,
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            }}
+          >
+            <header>{header}</header>
+            <main>{children}</main>
+            <footer>
+              {/* © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+        <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+            </footer>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -1,17 +1,30 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+const typography = new Typography({
+  googleFonts: [
+    {
+      name: "Inconsolata",
+      styles: ["400", "700"],
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    {
+      name: "Source Serif Pro",
+      styles: ["400", "700"],
+    },
+  ],
+  baseLineHeight: 1.666,
+  baseFontSize: "18px",
+  bodyFontFamily: ["Source Serif Pro", "serif"],
+  headerFontFamily: ["Inconsolata", "monospace"],
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    ...styles,
+    small: {
+      fontFamily: "Inconsolata",
+    },
+    a: {
+      // textDecoration: "none",
+    },
+  }),
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

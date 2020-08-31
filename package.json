@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "itp-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Development blog for ITP projects",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Elias Jarzombek",
   "dependencies": {
     "gatsby": "^2.24.50",
     "gatsby-image": "^2.4.16",

@@ -43,7 +43,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <Image
+      {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
@@ -55,14 +55,14 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+      /> */}
+      {/* <p>
+        <h2>{author.name}</h2>
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>
-      </p>
+      </p> */}
     </div>
   )
 }
