@@ -51,6 +51,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <nav>
         <ul
           style={{
+            margin: 0,
             display: `flex`,
             flexWrap: `wrap`,
             justifyContent: `space-between`,

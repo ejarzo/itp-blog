@@ -21,7 +21,10 @@ const typography = new Typography({
       fontFamily: "Inconsolata",
     },
     a: {
-      // textDecoration: "none",
+      fontFamily: "Inconsolata",
+    },
+    "p a": {
+      fontFamily: "Source Serif Pro, serif",
     },
   }),
 })
