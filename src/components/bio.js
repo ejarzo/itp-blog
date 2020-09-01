@@ -29,6 +29,8 @@ const Bio = () => {
           }
           social {
             twitter
+            github
+            portfolio
           }
         }
       }
@@ -43,26 +45,12 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      {/* <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author.name}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      /> */}
-      {/* <p>
-        <h2>{author.name}</h2>
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p> */}
+      <div style={{ fontFamily: "Inconsolata" }}>
+        By <strong>Elias Jarzombek</strong> [
+        <a href={social.portfolio}>Website</a>{" "}
+        <a href={`https://github.com/${social.github}`}>Github</a>{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>]
+      </div>
     </div>
   )
 }
