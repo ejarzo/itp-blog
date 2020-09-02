@@ -7,10 +7,10 @@ module.exports = {
     },
     description: `Notebook`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`, // TODO
-    social: {
+    socialUrls: {
       portfolio: "https://ejarzo.github.io",
-      github: "https://github.com/ejarzo/",
-      twitter: `jarz_0`,
+      github: "https://github.com/ejarzo",
+      twitter: "https://twitter.com/jarz_0",
     },
   },
   plugins: [

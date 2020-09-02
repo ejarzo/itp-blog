@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import Color from "color"
+import { THEME_COLORS } from "../utils/color"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -16,52 +18,48 @@ const Layout = ({ location, title, children }) => {
           marginTop: 0,
         }}
       >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
+        <Link style={{ boxShadow: `none`, color: `inherit` }} to={`/`}>
           {title}
         </Link>
       </h1>
     )
   } else {
     header = (
-      <h3
-        style={{
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
+      <h3 style={{ marginTop: 0 }}>
+        <Link style={{ boxShadow: `none`, color: `inherit` }} to={`/`}>
           {title}
         </Link>
       </h3>
     )
   }
+
+  const { OFF_WHITE } = THEME_COLORS
+
   return (
     <div
       style={{
-        background: "#EEE",
-        border: "10px solid #222",
+        background: OFF_WHITE,
+        border: `10px solid ${Color(OFF_WHITE)
+          .darken(0.9)
+          .fade(0.1)
+          .toString()}`,
       }}
     >
       <div
         style={{
-          border: "10px solid #444",
+          border: `10px solid ${Color(OFF_WHITE)
+            .darken(0.7)
+            .fade(0.3)
+            .toString()}`,
         }}
       >
         <div
           style={{
             minHeight: "calc(100vh - 40px)",
-            border: "10px solid #666",
+            border: `10px solid ${Color(OFF_WHITE)
+              .darken(0.5)
+              .fade(0.5)
+              .toString()}`,
           }}
         >
           <div

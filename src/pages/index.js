@@ -1,10 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import TagsList from "../components/tagsList"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -15,25 +15,26 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Bio />
       {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
+        const { frontmatter, fields, excerpt } = node
+        const { tags } = frontmatter
+        const title = frontmatter.title || fields.slug
         return (
-          <article key={node.fields.slug}>
-            <header
-              style={{
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
+          <article key={fields.slug}>
+            <header style={{ marginBottom: rhythm(1 / 4) }}>
               <h3 style={{ marginBottom: 0 }}>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ boxShadow: `none` }} to={fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small>{frontmatter.date}</small>
+              <div>
+                <TagsList tags={tags} />
+              </div>
             </header>
             <section>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
+                  __html: frontmatter.description || excerpt,
                 }}
               />
             </section>
@@ -64,6 +65,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }

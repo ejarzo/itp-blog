@@ -27,7 +27,7 @@ const Bio = () => {
             name
             summary
           }
-          social {
+          socialUrls {
             twitter
             github
             portfolio
@@ -37,19 +37,14 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author, socialUrls } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <div style={{ fontFamily: "Inconsolata" }}>
+    <div style={{ display: `flex`, marginBottom: rhythm(2.5) }}>
+      <div className="font--monospace">
         By <strong>Elias Jarzombek</strong> [
-        <a href={social.portfolio}>Website</a>{" "}
-        <a href={`https://github.com/${social.github}`}>Github</a>{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>]
+        <a href={socialUrls.portfolio}>Website</a>{" "}
+        <a href={socialUrls.github}>Github</a>{" "}
+        <a href={socialUrls.twitter}>Twitter</a>]
       </div>
     </div>
   )
