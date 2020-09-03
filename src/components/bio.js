@@ -1,15 +1,8 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Image from 'gatsby-image';
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
-
-import { rhythm } from "../utils/typography"
+import { rhythm } from '../utils/typography';
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -35,19 +28,19 @@ const Bio = () => {
         }
       }
     }
-  `)
+  `);
 
-  const { author, socialUrls } = data.site.siteMetadata
+  const { author, socialUrls } = data.site.siteMetadata;
   return (
     <div style={{ display: `flex`, marginBottom: rhythm(2.5) }}>
       <div className="font--monospace">
         By <strong>Elias Jarzombek</strong> [
-        <a href={socialUrls.portfolio}>Website</a>{" "}
-        <a href={socialUrls.github}>Github</a>{" "}
+        <a href={socialUrls.portfolio}>Website</a>{' '}
+        <a href={socialUrls.github}>Github</a>{' '}
         <a href={socialUrls.twitter}>Twitter</a>]
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;

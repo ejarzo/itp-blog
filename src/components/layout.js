@@ -1,13 +1,15 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import { rhythm, scale } from "../utils/typography"
-import Color from "color"
-import { THEME_COLORS } from "../utils/color"
+import { rhythm, scale } from '../utils/typography';
+import Color from 'color';
+import { THEME_COLORS } from '../utils/color';
+
+const { OFF_WHITE } = THEME_COLORS;
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  let header
+  const rootPath = `${__PATH_PREFIX__}/`;
+  let header;
 
   if (location.pathname === rootPath) {
     header = (
@@ -22,7 +24,7 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
-    )
+    );
   } else {
     header = (
       <h3 style={{ marginTop: 0 }}>
@@ -30,16 +32,16 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h3>
-    )
+    );
   }
 
-  const { OFF_WHITE } = THEME_COLORS
+  const baseColor = OFF_WHITE;
 
   return (
     <div
       style={{
-        background: OFF_WHITE,
-        border: `10px solid ${Color(OFF_WHITE)
+        background: baseColor,
+        border: `10px solid ${Color(baseColor)
           .darken(0.9)
           .fade(0.1)
           .toString()}`,
@@ -47,7 +49,7 @@ const Layout = ({ location, title, children }) => {
     >
       <div
         style={{
-          border: `10px solid ${Color(OFF_WHITE)
+          border: `10px solid ${Color(baseColor)
             .darken(0.7)
             .fade(0.3)
             .toString()}`,
@@ -55,8 +57,8 @@ const Layout = ({ location, title, children }) => {
       >
         <div
           style={{
-            minHeight: "calc(100vh - 40px)",
-            border: `10px solid ${Color(OFF_WHITE)
+            minHeight: 'calc(100vh - 40px)',
+            border: `10px solid ${Color(baseColor)
               .darken(0.5)
               .fade(0.5)
               .toString()}`,
@@ -81,7 +83,7 @@ const Layout = ({ location, title, children }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
