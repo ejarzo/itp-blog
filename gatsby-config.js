@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Notebook`,
+    title: `ITP Notebook`,
     author: {
       name: `Elias Jarzombek`,
       summary: `muscian and developer`,
     },
-    description: `Notebook`,
+    description: `ITP Notebook`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`, // TODO
     socialUrls: {
       portfolio: 'https://ejarzo.github.io',

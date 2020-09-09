@@ -20,6 +20,13 @@ a:hover {
   background: rgb(202, 192, 167);
 }
 
+table {
+  font-family: 'Inconsolata', monospace;
+}
+.blog-post .gatsby-resp-image-wrapper {
+  margin-bottom: 5px;
+}
+
 .tag {
   font-weight: bold;
   opacity: 0.9;

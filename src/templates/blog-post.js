@@ -43,7 +43,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </p>
           <TagsList tags={tags} />
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <section
+          className="blog-post"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <hr
           style={{
             marginBottom: rhythm(1),
