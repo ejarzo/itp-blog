@@ -6,6 +6,8 @@ tags:
   - 'PHYSICAL_COMPUTING'
 ---
 
+[Lab Guide](https://itp.nyu.edu/physcomp/labs/components/)
+
 This lab serves as a way to index and familiarize myself with the components I will be using in Physical Computing. Below are the parts I have received so far.
 
 ### 5V Voltage Regulator
@@ -16,7 +18,7 @@ This lab serves as a way to index and familiarize myself with the components I w
 | LD1117V33   | 3        | [Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/94430/STMICROELECTRONICS/LD1117V33.html) |
 
 ![Three 5V Voltage Regulators](./regulators.jpeg)
-_Three 5V Voltage Regulators_
+_Three 5V voltage regulators_
 
 ### LEDs
 
@@ -25,7 +27,7 @@ _Three 5V Voltage Regulators_
 | BL-BZX3V4V-1-B02 | 20       | [Datasheet](http://americanbrightled.com/pdffiles/throughhole/BL-BZX3V4V-1-B02.pdf) |
 
 ![20 White LEDs](./leds.jpeg)
-_20 White LEDs_
+_20 white LEDs_
 
 ### Solderless Breadboard
 
@@ -34,7 +36,7 @@ _20 White LEDs_
 | TW-E40-1020 | 1        | [Datasheet](https://www.mouser.com/datasheet/2/416/Twin_Industries_Solderless_Breadboards-461560.pdf) |
 
 ![Solderless Breadboard](./breadboard.jpeg)
-_Solderless Breadboard_
+_Solderless breadboard_
 
 ### Resistors
 
@@ -49,7 +51,7 @@ _Solderless Breadboard_
 _Resistors (left to right: 220, 1k, 10k OHM)_
 
 ![Force Sensing Resistor](./fsr.jpeg)
-_Force Sensing Resistor_
+_Force sensing resistor_
 
 ### Potentiometers
 

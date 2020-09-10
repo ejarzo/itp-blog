@@ -25,15 +25,19 @@ table {
 }
 .blog-post .gatsby-resp-image-wrapper {
   margin-bottom: 5px;
+  box-shadow: -1px 2px 10px -4px rgba(28, 24, 18, 0.2);
 }
 
 .gatsby-resp-image-wrapper + em {
   text-align: center;
+  max-width: 590px;
   display: block;
   margin: 0 auto;
-  opacity: 0.5;
-  font-size: 0.8em;
+  opacity: 0.8;
+  font-size: 0.75em;
   font-family: 'Inconsolata', monospace;
+  font-style: none !important;
+  /* border-top: 2px solid rgba(28, 24, 18, 0.7); */
 }
 
 .tag {
