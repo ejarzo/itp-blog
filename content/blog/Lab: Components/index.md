@@ -76,7 +76,7 @@ _4 multicolored momentary switches_
 | ALS-PT243-3C/L17 | 5        | [Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/ALS-PT243-3C,L177.pdf) |
 
 ![1 Phototransistor](./phototransistor.jpeg)
-_1 Phototransistor_
+_Phototransistor_
 
 ### Thermistors
 
@@ -85,7 +85,7 @@ _1 Phototransistor_
 | NTCLE100E3103JB0 | 4        | [Datasheet](https://www.mouser.com/datasheet/2/427/ntcle100-1762452.pdf) |
 
 ![1 10k Ohm Thermistor](./thermistor.jpeg)
-_1 10k Ohm thermistor_
+_10k Ohm thermistor_
 
 ### Diodes
 
@@ -94,19 +94,16 @@ _1 10k Ohm thermistor_
 | 1N4001B-G   | 10       | [Datasheet](https://www.comchiptech.com/admin/files/product/1N4001-G%20Thru.%201N4007-G%20RevB.pdf) |
 
 ![1 Diode](./diode.jpeg)
-_1 Diode_
+_Diode_
 
-### Transistors (?)
-
-NOTE: I am not entirely sure these are transistors since they are not marked as such.
-[labeled as semiconductor]?
+### Transistors
 
 | Part Number | Quantity | Datasheet                                                                         |
 | ----------- | -------- | --------------------------------------------------------------------------------- |
 | FQP30N06L   | 5        | [Datasheet](https://cdn.sparkfun.com/datasheets/Components/General/FQP30N06L.pdf) |
 
 ![photo of FQP30N06L part](./FQP30N06L.jpeg)
-_FQP30N06L_
+_Transistor_
 
 ### Servo Motor
 
