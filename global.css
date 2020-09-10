@@ -27,6 +27,15 @@ table {
   margin-bottom: 5px;
 }
 
+.gatsby-resp-image-wrapper + em {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+  font-size: 0.8em;
+  font-family: 'Inconsolata', monospace;
+}
+
 .tag {
   font-weight: bold;
   opacity: 0.9;
