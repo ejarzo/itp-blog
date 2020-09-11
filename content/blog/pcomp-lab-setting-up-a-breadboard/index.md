@@ -20,7 +20,7 @@ Before starting I will test my understanding by answering the ["Will it light"](
 
 1. Yes, the circuit is complete
 2. No, the resistor is not connected to ground, and the LED is not connected to the input voltage
-3. Yes, the new wire connects the resistor’s output voltage to the LED’s input, putting the two components in series with eachother.
+3. Yes, the new wire connects the resistor’s output voltage to the LED’s input, putting the two components in series with each other.
 4. No. The current is not ‘forced’ to go through the LED because there is conductive material connecting both of its ends (underneath the breadboard row)
 5. Yes, this looks complete
 
