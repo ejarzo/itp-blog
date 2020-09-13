@@ -42,6 +42,13 @@ table {
   /* border-top: 2px solid rgba(28, 24, 18, 0.7); */
 }
 
+.gatsby-resp-image-image {
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+  width: auto !important;
+}
+
 .tag {
   font-weight: bold;
   opacity: 0.9;
