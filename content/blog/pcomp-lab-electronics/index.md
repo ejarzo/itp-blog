@@ -1,7 +1,7 @@
 ---
 title: 'Lab: Electronics'
 date: '2020-09-13'
-description: ''
+description: 'Learning the fundamentals of electrical measurements'
 tags:
   - 'PHYSICAL_COMPUTING'
 ---
