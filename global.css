@@ -71,3 +71,10 @@ table {
 .font--monospace {
   font-family: 'Inconsolata', monospace;
 }
+
+code {
+  font-family: 'Inconsolata', monospace !important;
+  line-height: 0.8 !important;
+  font-size: 0.8em !important;
+  color: inherit !important;
+}
