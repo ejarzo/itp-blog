@@ -58,6 +58,6 @@ The LEDs toggled when I pressed the button.
 _The second LED lights up when pressing the button_
 
 <p>
-<video muted controls="controls" name="Pressing the button causes the LEDs to toggle" src="IMG_6335.mov"></video>
+<video muted autoplay loop name="Pressing the button causes the LEDs to toggle" src="IMG_6335.mov"></video>
 <em>Pressing the button causes the LEDs to toggle</em>
 </p>

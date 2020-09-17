@@ -32,7 +32,7 @@ table {
 
 .blog-post video {
   max-width: 590px;
-  max-height: 500px;
+  max-height: 533.33333px;
   margin: 0 auto;
   display: block;
 }
@@ -50,6 +50,13 @@ table {
   font-family: 'Inconsolata', monospace;
   font-style: none !important;
   /* border-top: 2px solid rgba(28, 24, 18, 0.7); */
+}
+
+.portrait .gatsby-resp-image-wrapper {
+  max-width: 300px !important;
+}
+.portrait .gatsby-resp-image-background-image {
+  padding-bottom: 135% !important;
 }
 
 .gatsby-resp-image-image {
@@ -74,7 +81,7 @@ table {
 
 code {
   font-family: 'Inconsolata', monospace !important;
-  line-height: 0.8 !important;
-  font-size: 0.8em !important;
+  /* line-height: 0.8 !important; */
+  /* font-size: 0.8em !important; */
   color: inherit !important;
 }

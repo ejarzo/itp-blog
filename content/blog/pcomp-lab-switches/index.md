@@ -1,7 +1,7 @@
 ---
 title: 'Lab: Switches'
 date: '2020-09-16'
-description: 'Learning the fundamentals of electrical measurements'
+description: 'The basics of electrical switches, creating a custom switch'
 tags:
   - 'PHYSICAL_COMPUTING'
 ---
@@ -43,7 +43,7 @@ The multimeter beeped when I placed the mug on the coaster - continuity!
 _Measuring continuity when the mug is on the coaster_ -->
 
 <p>
-<video muted controls="controls" name="The connection becomes continuous when the mug is placed on the coaster" src="IMG_6322.mov"></video>
+<video muted autoplay loop name="The connection becomes continuous when the mug is placed on the coaster" src="IMG_6322.mov"></video>
 <em>The connection becomes continuous when the mug is placed on the coaster</em>
 </p>
 
@@ -63,7 +63,7 @@ Placing the mug on the coaster closes the switch, illuminating the LED. Success!
 _Placing the mug on the coaster closes the switch, illuminating the LED_
 
 <p>
-  <video muted controls="controls" name="It works!" src="IMG_6325.mov"></video>
+  <video muted autoplay loop name="It works!" src="IMG_6325.mov"></video>
   <em>It works!</em>
 </p>
 
@@ -73,12 +73,12 @@ One drawback to this design is that the mug must be placed at the correct rotati
 
 I also implemented two other switch configurations: switches in parallel and in series. With switches in parallel, pressing any one of them turns on the LED.
 
-<p><video muted controls="controls" name="Video Name" src="IMG_6315.mov"></video>
+<p><video muted autoplay loop name="Video Name" src="IMG_6315.mov"></video>
 <em>Switches in parallel: pressing any switch turns on the LED</em>
 </p>
 
 With switches in series, you must press all of them to complete the circuit.
 
-<p><video muted controls="controls" name="Video Name" src="IMG_6316.mov"></video>
+<p><video muted autoplay loop name="Video Name" src="IMG_6316.mov"></video>
 <em>Switches in series: the LED can only be activated by pressing all three buttons</em>
 </p>
