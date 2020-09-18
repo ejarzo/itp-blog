@@ -6,7 +6,7 @@ tags:
   - 'CODE_OF_MUSIC'
 ---
 
-This in an interactive musical drawing inspired by web apps like [Patatap](https://patatap.com/).
+This in an interactive musical drawing -- inspired by web apps like [Patatap](https://patatap.com/) -- that I made in collaboration with [Pippa Kelmenson](https://www.pippakelmenson.com)
 
 <p>
 <video controls name="AV Insturment" src="av-instrument.webm"></video>
