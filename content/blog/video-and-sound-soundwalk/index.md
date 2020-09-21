@@ -23,6 +23,7 @@ Walking deeper into the park, we focused on the sounds of the space we were in: 
 _Recording crickets in the underbrush_
 
 </div>
+
 We then attempted to create a spacial audio experience using the audio we captured. This required work to extract and clean up some of the sounds we wanted -- such as footsteps or birdcalls -- from the long recordings. We then imported the audio into Unity and crafted the environment.
 
 We are both relatively new to Unity, so this took the form of a basic path through trees and gravestones, populated with several birds. Each element produces sound that you hear when you approach it. Try it out below! Use `W` `A` `S` `D` to move and the mouse to look around (click to focus the window).
