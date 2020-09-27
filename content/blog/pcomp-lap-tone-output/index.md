@@ -37,7 +37,7 @@ void loop() {
 
 <p></p>
 
-Running this code, pressing the left FSR increased the pitch while pressing the right FSR decreased the pitch.
+Running this code, pressing the left FSR increases the pitch while pressing the right FSR decreases the pitch.
 
 <p>
 <video controls name="Controlling the pitch using the FSRs" src="IMG_6352.mov"></video>
@@ -77,14 +77,14 @@ void loop() {
 
 <p></p>
 
-The melody played once on startup.
+The melody plays once on startup.
 
 <p>
 <video controls name="'Shave and a Haircut, Two Bits' melody" src="IMG_6353.mov"></video>
 <em>'Shave and a Haircut, Two Bits' melody</em>
 </p>
 
-I then changed the wiring by adding a third FSR and connecting each FSR to an input pin as well as to ground with a pulldown resistor.
+I then changed the wiring by adding a third FSR and connecting each FSR to its own input pin as well as to ground with a pulldown resistor.
 
 ![Wiring three FSRs to use as note triggers](IMG_6355.jpeg)
 _Wiring three FSRs to use as note triggers_
@@ -121,7 +121,7 @@ void loop() {
 
 <p></p>
 
-Each FSR is mapped to a note, making a three-key musical instrument.
+Each FSR is now mapped to a note, creating a three-key musical instrument.
 
 <p>
 <video controls name="Playing notes using FSRs" src="IMG_6354.mov"></video>
