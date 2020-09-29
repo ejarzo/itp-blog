@@ -12,6 +12,10 @@ a {
   color: rgb(28, 24, 18);
 }
 
+blockquote {
+  border-left: 10px solid rgba(211, 205, 191, 0.7);
+  padding-left: 1em;
+}
 hr {
   background: rgb(211, 205, 191);
 }
