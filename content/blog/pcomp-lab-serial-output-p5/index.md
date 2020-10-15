@@ -13,15 +13,15 @@ In this lab I used serial communication to control an LED using JavaScript code.
 I implemented the P5 `mouseDragged` function so that dragging the mouse changed the LED's brightness.
 
 <p>
-<video autoplay loop muted name="caption" src="IMG_6390.mp4"></video>
-<em>caption</em>
+<video autoplay loop muted name="Controlling an LED with the mouse" src="IMG_6390.mp4"></video>
+<em>Controlling an LED with the mouse</em>
 </p>
 
 I then wrote logic to toggle the LED on or off using the `H` and `L` keys on the keyboard. The JS code sent the key that was pressed which was then decoded and acted upon by the embedded code.
 
 <p>
-<video autoplay loop muted name="caption" src="IMG_6392.mp4"></video>
-<em>caption</em>
+<video autoplay loop muted name="Controlling an LED with the keyboard" src="IMG_6392.mp4"></video>
+<em>Controlling an LED with the keyboard</em>
 </p>
 
 The JavaScript code:
