@@ -16,7 +16,7 @@ The beat is represented as a circle, where each drum track has a radius and numb
 
 The synth consists of four oscillators and one noise generator. It plays quarter note 7th chord arpeggios, and the chord's root note is controlled by moving the mouse across left and right. You can adjust each oscillator's type, base harmonic frequency, volume, detune, and ADSR envelope. You can also set the envelope to loop at a given interval.
 
-[Try it out](https://synth-station.netlify.app/) or [view the source](https://github.com/ejarzo/synth-station).
+[Try it out](https://synth-station.netlify.app/) or [view the source](https://github.com/ejarzo/pulse).
 
 I found that combining the two projects resulted in a fairly expressive device. Its main limitation as a performance tool is the reliance on the mouse since it's hard to control multiple things at once, so one idea I had was to make it controllable by two people -- one on drums and one on the synth. This would probably work best on a touch device.
 
