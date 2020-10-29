@@ -24,7 +24,7 @@ const typography = new Typography({
       fontFamily: 'Inconsolata',
     },
     'p a': {
-      fontFamily: 'Source Serif Pro, serif',
+      fontFamily: 'inherit',
     },
   }),
 });

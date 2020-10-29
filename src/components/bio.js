@@ -32,7 +32,7 @@ const Bio = () => {
 
   const { author, socialUrls } = data.site.siteMetadata;
   return (
-    <div style={{ display: `flex`, marginBottom: rhythm(2.5) }}>
+    <div style={{ display: `flex`, marginBottom: rhythm(1) }}>
       <div className="font--monospace">
         By <strong>Elias Jarzombek</strong> [
         <a href={socialUrls.portfolio}>Website</a>{' '}

@@ -24,7 +24,7 @@ const TagsTemplate = ({ data, location, pageContext }) => {
       <h1
         style={{
           color: Color(color).darken(0.1),
-          textShadow: `-1px 2px ${Color(color).darken(0.3)}`,
+          textShadow: `-1px 2px 2px ${Color(color).darken(0.3)}`,
           marginBottom: rhythm(2),
         }}
       >
