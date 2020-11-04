@@ -6,7 +6,7 @@ tags:
   - 'CODE_OF_MUSIC'
 ---
 
-<iframe src="https://player.vimeo.com/video/471502084" width="640" height="463" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/471502084?color=eae6de" width="640" height="463" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 The [Synth Station](https://synth-station.netlify.app/) is a music making web device that combines two of my previous studies, the [Drum Radar](/code-of-music-rhythm-study) and the [Additive Synth](/code-of-music-timbre-study). It allows you to control a synthesizer and drum machine simultaneously.
 

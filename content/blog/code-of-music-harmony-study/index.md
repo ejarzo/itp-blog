@@ -6,7 +6,7 @@ tags:
   - 'CODE_OF_MUSIC'
 ---
 
-<iframe src="https://player.vimeo.com/video/468989364" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/468989364?color=eae6de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 For my melody study I extended my previous project, an [Additive Synth](/code-of-music-timbre-study), by adding visualization and control over the synth's tuning. Each oscillator's waveform is graphed in a circle. Since all oscillators route through the first oscillator, the top left graph represents the sum of all four - the output waveform.
 

@@ -41,6 +41,7 @@ table {
   display: block;
 }
 
+.caption,
 .gatsby-resp-image-wrapper + em,
 .blog-post video + em {
   margin-top: 5px;
@@ -54,6 +55,11 @@ table {
   font-family: 'Inconsolata', monospace;
   font-style: none !important;
   /* border-top: 2px solid rgba(28, 24, 18, 0.7); */
+}
+
+.caption--left {
+  text-align: left;
+  margin: 0;
 }
 
 .portrait .gatsby-resp-image-wrapper {
