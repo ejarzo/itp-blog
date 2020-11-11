@@ -30,6 +30,8 @@ Controls: Click to generate a new image. Move mouse to adjust painting direction
 
 [Try it out](https://texturizer.netlify.app/) or [view the source](https://github.com/ejarzo/texturizer/blob/master/script.js).
 
+An interactive P5 Editor is available [here](https://editor.p5js.org/ejarzo/sketches/RDczUR8ls);
+
 <!-- ![screenshot](./screenshots/screenshot1.png) -->
 
 <!-- ![screenshot](./screenshots/screenshot2.png) -->
