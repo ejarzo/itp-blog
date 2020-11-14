@@ -12,6 +12,8 @@ This week [Pippa](https://www.pippakelmenson.com) and I experimented with us L-S
 
 We started with a tutorial by [necessary-disorder](https://necessarydisorder.wordpress.com/) and created a visualization based on two spinning circles and the transition between the them -- which form a sort of coil. The L-System controls how much that coil is wound, tightening and loosening based on the current generation of instructions.
 
+We used the [Sierpinski triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) as our starting rules but modified it slightly to produce a more balanced effect. In our implementation `F` means "tighten", `G` means "loosen", and `-` is a rest (no action). The current letter is incremented every 30 frames.
+
 In our [original sketch](https://glitch.com/edit/#!/beneficial-purrfect-carp?path=script.js%3A59%3A10) added sound by modulating an oscillators pitch in relation to the tightness of the coil -- similar to how one tunes a stringed instrument.
 
 In a [later iteration](https://editor.p5js.org/ejarzo/sketches/u9SX_XS2C) we used two [GrainPlayers](https://tonejs.github.io/docs/r13/GrainPlayer) playing a recorded sample. In addition to changing the pitch, the tightness of coil also affects how quickly the sample is looped. Each circle also had manual slider inputs which control the volume and initial pitch of the sample, represented as the circle's radius and rotational speed, respectively.
