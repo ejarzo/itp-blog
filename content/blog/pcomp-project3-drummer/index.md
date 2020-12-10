@@ -45,3 +45,7 @@ _caption_
 
 ![The finished enclosure](IMG_6480.png)
 _The finished enclosure_
+
+## The Code
+
+The arduino code can be viewed [here](https://github.com/ejarzo/arduino-drummer/blob/master/drummer.ino). The core logic handles timing. The loop begins recording when the first beat is played and ends when the loop button is pressed. The user timings are then calculated and quantized to eighth notes based on the overall loop length. If I had connected the DrumsRNN algorithm, the quantized beats would be used as the initial input to generate derivative rhythms
