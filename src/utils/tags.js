@@ -6,6 +6,6 @@ export const TAGS = {
   ICM: { label: 'ICM: Media', color: '#56bcc9' },
   MUSIC_INTERACTION_DESIGN: {
     label: 'Music Interaction Design',
-    color: '#44f4c4',
+    color: 'rgb(0, 205, 149)',
   },
 };
