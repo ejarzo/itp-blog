@@ -8,4 +8,8 @@ export const TAGS = {
     label: 'Music Interaction Design',
     color: 'rgb(0, 205, 149)',
   },
+  NATURE_OF_CODE: {
+    label: 'Nature of Code',
+    color: '#da67e5',
+  },
 };
