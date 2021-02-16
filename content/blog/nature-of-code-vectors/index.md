@@ -10,4 +10,6 @@ tags:
 
 [Open sketch](https://editor.p5js.org/ejarzo/sketches/EbW92u-za)
 
-This week I modified my previous project to use vectors and also added a few more interactions. Three sliders now control wiggle amount (random motion), horizontal drift, and vertical drift. Using them together allows for more ways to generate a composition. A square "frame" that comes into view once shapes are placed changes the musical chord when clicked. Holding it down will increase its size, and I would like to add a sonic element as well.
+This week I modified my previous project to use vectors and also added a few more interactions. Three sliders now control wiggle amount (random motion), horizontal drift, and vertical drift -- all of which affect all shapes equally. Using them together allows for more different "brushstrokes".
+
+A square "frame" appears once shapes have been placed. Clicking it changes the musical chord and holding it down increases its size -- I would like to add a sonic element to this interaction as well.
