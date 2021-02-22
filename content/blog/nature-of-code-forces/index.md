@@ -12,4 +12,4 @@ tags:
 
 This week I experimented with making sound using gravitational forces. I started with the [Gravitational Attraction code](https://thecodingtrain.com/learning/nature-of-code/2.5-gravitational-attraction.html) and added some ideas from previous sketches which use 4 different shapes to represent different audio wave forms. In this sketch there are two attraction points of variable strength act as left and right ears that 'listen' to the shapes flying by. Clicking and dragging allows you to launch shapes with an initial velocity, and each shape produces one note. The "Mass" slider changes the shape's size and note -- smaller shapes produce higher pitched notes.
 
-There's a lot I still want to add -- especially the ability to move left/right attraction points. There is also currently a bug where the right point does not animate in the same way the left one does.
+There's a lot I still want to add -- especially the ability to move left/right attraction points.
