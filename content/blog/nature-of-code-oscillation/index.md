@@ -10,7 +10,7 @@ tags:
 
 <iframe src="https://player.vimeo.com/video/517974442?color=eae6de" width="640" height="463" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-[Open sketch](https://editor.p5js.org/ejarzo/sketches/csuQmsrSY) -- I recommend viewing it in full screen because it's a bit tall.
+[Try it out](https://abacusynth.netlify.app/) / [view code](https://editor.p5js.org/ejarzo/sketches/csuQmsrSY)
 
 For this week 'Oscillation' theme I created a synthesizer. Its layout is inspired by an [abacus](https://en.wikipedia.org/wiki/Abacus) and the interaction is centered on placing shapes on rods. Each rod is set to a frequency in the harmonic series, and each shape represents an [oscillator](https://www.innovativesynthesis.com/basic-synthesis-part-1-%E2%80%93-oscillators/) oscillating at that frequency. The different shapes represent the oscillator's wave type (sine, square, triangle, sawtooth).
 
