@@ -12,4 +12,8 @@ export const TAGS = {
     label: 'Nature of Code',
     color: '#da67e5',
   },
+  FAB: {
+    label: 'Intro to Fabrication',
+    color: '#c78304',
+  },
 };
