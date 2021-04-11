@@ -9,8 +9,8 @@ tags:
 <!-- <div style="background: url(./IMG_6665.png); width: 100%; height: 400px">
 </div> -->
 
-![5 sets of tangrams, 2 with frames](./IMG_6665.png)
-_5 sets of tangrams, 2 with frames (3 are drying)_
+![5 sets of tangrams](./IMG_6671.jpeg)
+_5 sets of wooden tangrams_
 
 <!-- <p style="width: width: calc(100vh - 30px);position: absolute;left: 30px;margin: 0 auto;right: 0;">
 <img style="width: 100%; max-width: unset" src="IMG_6667.png"></img>
@@ -34,7 +34,7 @@ I used the material dimensions to inform the design. The base would be 5.5" x 5.
 
 ## First Iteration
 
-I used the miter saw to cut the frame into equal segments. At first I measured the rod each cut -- later I used a piece of wood as a buttress which lead to much more consistent lengths.
+I started with the frame. I used the miter saw to cut square wood into equal segments. At first I measured the rod each cut -- later I used a piece of wood as a buttress helped create much more consistent lengths.
 
 ![Cutting the frame using the miter saw](./cutting-the-frame.png)
 _Cutting the frame using the miter saw_
@@ -151,16 +151,21 @@ _captionnn_ -->
 
 ## The Result
 
-The final result! I left three of the frames to dry overnight and I will update this post when I can.
+The final result!
 
-![5 sets of tangrams, 2 with frames](./IMG_6665.png)
-_5 sets of tangrams, 2 with frames_
+![5 sets of tangrams](./IMG_6671.jpeg)
 
-![Closeup of one set](./IMG_6667.png)
-_Closeup of one set_
+![5 sets of tangrams](./IMG_6673.jpeg)
 
-![Closeup of two sets](./IMG_6662.png)
-_Closeup of two sets_
+![5 sets of tangrams](./IMG_6674.jpeg)
+
+![5 sets of tangrams](./IMG_6675.jpeg)
+
+![5 sets of tangrams](./IMG_6676.jpeg)
+
+![5 sets of tangrams](./IMG_6677.jpeg)
+
+![5 sets of tangrams](./IMG_6678.jpeg)
 
 <!-- ![captionnn](./IMG_6666.png)
 _captionnn_ -->
