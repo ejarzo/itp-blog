@@ -8,7 +8,7 @@ tags:
 
 ![The board from black's perspective](IMG_6698.jpeg)
 
-For this weeks' laser cutter assignment I created a chess set. I found some [inspiration online](https://www.instructables.com/Lasercut-travel-chess-set/) for a board with slots into which the pieces fit.
+For this week's laser cutter assignment I created a chess set. I found some [inspiration online](https://www.instructables.com/Lasercut-travel-chess-set/) for a board with slots into which the pieces fit.
 
 ## Preparations
 
