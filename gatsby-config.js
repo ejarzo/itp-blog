@@ -59,6 +59,13 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `itp.eliasjarzombek.com`,
+        customDomain: 'sts.itp.eliasjarzombek.com',
+      },
+    },
     // `gatsby-plugin-feed`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
