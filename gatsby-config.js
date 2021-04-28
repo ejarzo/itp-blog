@@ -8,7 +8,7 @@ module.exports = {
     description: `ITP Notebook`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`, // TODO
     socialUrls: {
-      portfolio: 'https://ejarzo.github.io',
+      portfolio: 'https://eliasjarzombek.com',
       github: 'https://github.com/ejarzo',
       twitter: 'https://twitter.com/jarz_0',
     },
