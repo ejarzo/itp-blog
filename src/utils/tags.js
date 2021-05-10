@@ -14,6 +14,10 @@ export const TAGS = {
   },
   FAB: {
     label: 'Intro to Fabrication',
-    color: '#c78304',
+    color: '#c6963d',
+  },
+  SIGNALS_CALLS_MARCHES: {
+    label: 'Signals, Calls, and Marches',
+    color: '#a27ae2',
   },
 };
