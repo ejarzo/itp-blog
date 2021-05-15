@@ -20,4 +20,8 @@ export const TAGS = {
     label: 'Signals, Calls, and Marches',
     color: '#a27ae2',
   },
+  SPRING_SHOW_21: {
+    label: `Spring Show 2021`,
+    color: '#fc8a67',
+  },
 };

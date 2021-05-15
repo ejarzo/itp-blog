@@ -4,6 +4,8 @@ date: '2021-03-25'
 description: ''
 tags:
   - 'MUSIC_INTERACTION_DESIGN'
+  - 'SIGNALS_CALLS_MARCHES'
+  - 'SPRING_SHOW_21'
 ---
 
 ![screenshot of device](./device-screenshot.png)
