@@ -24,4 +24,9 @@ export const TAGS = {
     label: `Spring Show 2021`,
     color: '#fc8a67',
   },
+  DIGIFAB: {
+    label: `Digital Fabrication`,
+    color: '#f455bf',
+    isCurrent: true,
+  },
 };

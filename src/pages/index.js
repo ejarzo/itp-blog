@@ -27,6 +27,16 @@ const BlogIndex = ({ data, location }) => {
     const tagPath = `/tags/${tag.replace(/_/g, '-').toLowerCase()}/`;
   });
 
+  const getStyle = (tag) => ({
+    color: Color(TAGS[tag].color).darken(0.2),
+    padding: '1px 5px',
+    height: '1.5em',
+    borderRadius: 2,
+    background: `${Color(TAGS[tag].color).fade(0.8)}`,
+    marginRight: 8,
+    fontWeight: 'bold',
+  });
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
@@ -39,25 +49,34 @@ const BlogIndex = ({ data, location }) => {
           marginBottom: rhythm(2),
         }}
       >
-        {/* <span>Categories: </span> */}
-        {tags.map((tag) => (
-          <Link
-            style={{
-              color: Color(TAGS[tag].color).darken(0.2),
-              padding: '1px 3px',
-              borderRadius: 2,
-              // textShadow: `-1px 1px 2px ${Color(TAGS[tag].color).lighten(0.1)}`,
-              background: `${Color(TAGS[tag].color).fade(0.8)}`,
-              // background: 'none',
-              // textDecoration: 'none',
-              marginRight: 8,
-              fontWeight: 'bold',
-            }}
-            to={`tags/${tag.replace(/_/g, '-').toLowerCase()}`}
-          >
-            {TAGS[tag].label}
-          </Link>
-        ))}
+        <h3 style={{ margin: '0' }}>Current</h3>
+        <div
+          style={{
+            paddingBottom: rhythm(0.5),
+          }}
+        >
+          {tags
+            .filter((tag) => TAGS[tag].isCurrent)
+            .map((tag) => (
+              <Link
+                style={getStyle(tag)}
+                to={`tags/${tag.replace(/_/g, '-').toLowerCase()}`}
+              >
+                {TAGS[tag].label}
+              </Link>
+            ))}
+        </div>
+        <h3 style={{ margin: '0' }}>Past</h3>
+        {tags
+          .filter((tag) => !TAGS[tag].isCurrent)
+          .map((tag) => (
+            <Link
+              style={getStyle(tag)}
+              to={`tags/${tag.replace(/_/g, '-').toLowerCase()}`}
+            >
+              {TAGS[tag].label}
+            </Link>
+          ))}
       </div>
 
       <h2>All Posts</h2>
