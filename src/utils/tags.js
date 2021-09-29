@@ -29,4 +29,9 @@ export const TAGS = {
     color: '#f455bf',
     isCurrent: true,
   },
+  NIME: {
+    label: `NIME`,
+    color: '#5bce42',
+    isCurrent: true,
+  },
 };
