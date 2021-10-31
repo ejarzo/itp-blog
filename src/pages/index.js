@@ -55,28 +55,10 @@ const BlogIndex = ({ data, location }) => {
             paddingBottom: rhythm(0.5),
           }}
         >
-          {tags
-            .filter((tag) => TAGS[tag].isCurrent)
-            .map((tag) => (
-              <Link
-                style={getStyle(tag)}
-                to={`tags/${tag.replace(/_/g, '-').toLowerCase()}`}
-              >
-                {TAGS[tag].label}
-              </Link>
-            ))}
+          <TagsList tags={tags.filter((tag) => TAGS[tag].isCurrent)} />
         </div>
         <h3 style={{ margin: '0' }}>Past</h3>
-        {tags
-          .filter((tag) => !TAGS[tag].isCurrent)
-          .map((tag) => (
-            <Link
-              style={getStyle(tag)}
-              to={`tags/${tag.replace(/_/g, '-').toLowerCase()}`}
-            >
-              {TAGS[tag].label}
-            </Link>
-          ))}
+        <TagsList tags={tags.filter((tag) => !TAGS[tag].isCurrent)} />
       </div>
 
       <h2>All Posts</h2>

@@ -1,8 +1,22 @@
 import React from 'react';
-import color from 'color';
+import Color from 'color';
 import { TAGS } from '../utils/tags';
 import { rhythm, scale } from '../utils/typography';
 import { Link } from 'gatsby';
+
+const getStyle = (tag) => ({
+  color: Color(TAGS[tag].color).darken(0.2),
+  padding: '1px 5px',
+  lineHeight: 1,
+  borderRadius: 2,
+  background: `${Color(TAGS[tag].color).fade(0.8)}`,
+  marginRight: 8,
+  fontWeight: 'normal',
+  textDecoration: 'none',
+  display: 'inline-block',
+  border: `1px solid ${Color(TAGS[tag].color).fade(0.8)}`,
+  fontSize: '0.8em',
+});
 
 export default ({ tags = [] }) =>
   tags.map((tag) => (
@@ -10,20 +24,7 @@ export default ({ tags = [] }) =>
       to={`/tags/${tag.replace(/_/g, '-').toLowerCase()}`}
       className="tag font--monospace"
       key={tag}
-      style={{
-        textDecoration: 'none',
-        display: 'inline-block',
-        textTransform: 'uppercase',
-        background: color(TAGS[tag].color).lighten(0.1).toString(),
-        color: color(TAGS[tag].color).darken(0.7).toString(),
-        // border: `1px dashed ${color(TAGS[tag].color).darken(0.1).toString()}`,
-        boxShadow: `-1px 2px ${color(TAGS[tag].color).darken(0.1).toString()}`,
-        marginRight: rhythm(1 / 4),
-        borderRadius: rhythm(1 / 6),
-        padding: `${rhythm(1 / 12)} ${rhythm(1 / 4)}`,
-        fontSize: '60%',
-        // fontSize: "80%",
-      }}
+      style={getStyle(tag)}
     >
       {TAGS[tag].label}
     </Link>

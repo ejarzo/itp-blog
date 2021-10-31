@@ -9,7 +9,7 @@ export default ({ posts = [] }) =>
     const { tags } = frontmatter;
     const title = frontmatter.title || fields.slug;
     return (
-      <article key={fields.slug}>
+      <article style={{ marginBottom: '2em' }} key={fields.slug}>
         <header style={{ marginBottom: rhythm(1 / 4) }}>
           <h3 style={{ marginBottom: 0 }}>
             <Link style={{ boxShadow: `none` }} to={fields.slug}>
