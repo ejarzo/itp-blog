@@ -27,9 +27,35 @@ a:hover {
 table {
   font-family: 'Inconsolata', monospace;
 }
-.blog-post .gatsby-resp-image-wrapper {
-  /* margin-bottom: 5px; */
+
+h1 {
+  font-size: 3em;
 }
+h2 {
+  font-size: 2em;
+}
+
+.bg1,
+.bg2,
+.bg3 {
+  border-width: 10px;
+  border-style: solid;
+}
+
+.bg1 {
+  overflow: hidden;
+}
+@media screen and (max-width: 400px) {
+  .bg1,
+  .bg2,
+  .bg3 {
+    border-width: 5px;
+  }
+}
+/* .blog-post .gatsby-resp-image-wrapper {
+  margin-bottom: 5px;
+} */
+
 .blog-post .gatsby-resp-image-wrapper a {
   background: none !important;
 }

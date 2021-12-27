@@ -31,7 +31,7 @@ export const TAGS = {
   },
   NIME: {
     label: `NIME`,
-    color: '#888',
+    color: '#18A',
     isCurrent: true,
   },
 };

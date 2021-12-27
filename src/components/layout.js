@@ -39,36 +39,30 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div
+      className="bg1"
       style={{
         background: baseColor,
-        border: `10px solid ${Color(baseColor)
-          .darken(0.9)
-          .fade(0.1)
-          .toString()}`,
+        borderColor: `${Color(baseColor).darken(0.9).fade(0.1).toString()}`,
       }}
     >
       <div
+        className="bg2"
         style={{
-          border: `10px solid ${Color(baseColor)
-            .darken(0.7)
-            .fade(0.3)
-            .toString()}`,
+          borderColor: `${Color(baseColor).darken(0.7).fade(0.3).toString()}`,
         }}
       >
         <div
+          className="bg3"
           style={{
             minHeight: 'calc(100vh - 40px)',
-            border: `10px solid ${Color(baseColor)
-              .darken(0.5)
-              .fade(0.5)
-              .toString()}`,
+            borderColor: `${Color(baseColor).darken(0.5).fade(0.5).toString()}`,
           }}
         >
           <div
             style={{
               marginLeft: `auto`,
               marginRight: `auto`,
-              maxWidth: rhythm(24),
+              maxWidth: rhythm(28),
               padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             }}
           >
