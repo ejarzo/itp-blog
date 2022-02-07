@@ -27,11 +27,14 @@ export const TAGS = {
   DIGIFAB: {
     label: `Digital Fabrication`,
     color: '#f455bf',
-    isCurrent: true,
   },
   NIME: {
     label: `NIME`,
     color: '#18A',
+  },
+  HOMEMADE_HARDWARE: {
+    label: `Homemade Hardware`,
+    color: '#598bf7',
     isCurrent: true,
   },
 };
