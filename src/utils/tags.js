@@ -37,4 +37,9 @@ export const TAGS = {
     color: '#598bf7',
     isCurrent: true,
   },
+  THESIS: {
+    label: `Thesis`,
+    color: '#ef1032',
+    isCurrent: true,
+  },
 };
