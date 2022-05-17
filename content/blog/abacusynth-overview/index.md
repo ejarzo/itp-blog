@@ -14,7 +14,7 @@ For more on the process, check out my posts on the [fabrication](/abacusynth-fab
 
 And you can check out a digital implementation of the same idea [here](https://eliasjarzombek.com/abacusynth-plugin).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/erhKOqqR3Tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lWUlo18B14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Abacusynth is a synthesizer inspired by an abacus, the ancient counting tool used all around the world. Just like an abacus is used to learn the fundamentals of math, the Abacusynth can be used to explore the building blocks of audio synthesis. It exists in two forms, one [digital](https://eliasjarzombek.com/abacusynth-plugin) and one physical, that are both based on the same primary interaction: placing and manipulating shapes on rods. The visual and tactile control makes it easy and fun to create rich timbres sounds without having to fiddle with lots of knobs and sliders.
 
