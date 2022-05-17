@@ -1,5 +1,5 @@
 export const TAGS = {
-  PHYSICAL_COMPUTING: { label: 'Physical Computing', color: '#eabb79' },
+  PHYSICAL_COMPUTING: { label: 'Physical Computing', color: '#db8915' },
   CODE_OF_MUSIC: { label: 'Code of Music', color: '#9fa0f4' },
   VIDEO_AND_SOUND: { label: 'Video and Sound', color: '#8cd8bb' },
   ANIMATION: { label: 'Animation', color: '#dd7385' },
@@ -22,7 +22,7 @@ export const TAGS = {
   },
   SPRING_SHOW_21: {
     label: `Spring Show 2021`,
-    color: '#fc8a67',
+    color: '#d6481d',
   },
   DIGIFAB: {
     label: `Digital Fabrication`,

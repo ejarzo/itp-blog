@@ -116,12 +116,12 @@ h2 {
 }
 
 .tag {
-  font-weight: bold;
-  opacity: 0.9;
+  /* font-weight: bold; */
+  /* opacity: 0.9; */
 }
 
 .tag:hover {
-  opacity: 1;
+  font-weight: bold !important;
 }
 
 .font--monospace {
