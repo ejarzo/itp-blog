@@ -1,5 +1,5 @@
 ---
-title: 'Abacusynth Spinner Development'
+title: 'Abacusynth: Spinner Fabrication'
 date: '2022-04-10'
 description: ''
 tags:
@@ -9,7 +9,7 @@ tags:
 ![Sketch of my thesis project: Abacusynth](thesis-sketch2.jpeg)
 _Sketch of my thesis project: Abacusynth_
 
-For my thesis project I am creating a synthesizer inspired by an abacus. Its interface consists of four rods, each holding a spinning object. These four objects represent oscillators in the synth. A user can spin them and move them left and right along the rod.
+For my [thesis project](/abacusynth-overview) I am creating a synthesizer inspired by an abacus. Its interface consists of four rods, each holding a spinning object. These four objects represent oscillators in the synth. A user can spin them and move them left and right along the rod.
 
 The objects should be as "spinny" as possible, but they also need to move left and right smoothly. I experimented with a lot of ball bearings, but nothing worked as well as a fidget spinner. I wanted the objects to be wood, so I found a small spinner and encased it within within layers of laser-cut wood.
 
@@ -154,11 +154,6 @@ _A wooden bead inserted into the bearing_
 
 ## Testing two Spinners
 
-<!-- <p>
-<video controls name="caption" src="IMG_0360.mp4"></video>
-<em>caption</em>
-</p> -->
-
 ![Thin vs thick steel rod](IMG_0363.jpeg)
 _Thin vs thick steel rod_
 
@@ -167,8 +162,37 @@ _Thin vs thick steel rod_
 <em>Testing both spinners at once</em>
 </p>
 
-<!-- ![caption](IMG_0362.jpeg)
-_caption_ -->
-<!--
-![caption](IMG_0364.jpeg)
-_caption_ -->
+## 3d Printing a Handle
+
+For the final iteration, I 3d Printed a handle that would friction fit into the spinner but allow for easy left/right movement.
+
+### Version 1
+
+![Handle design V1](handle-design-1.png)
+_Handle design V1_
+
+![The 3d Printed Handles](./IMG_0537.jpeg)
+_The 3d Printed Handles_
+
+![Assembling the spinners with the two new handles and some earlier tests](./IMG_0555.jpeg)
+_Assembling the spinners with the two new handles and some earlier tests_
+
+### Final Version
+
+User testing revealed that the spinners should fit the finger better, with a wider curved handle. I updated the design accordingly.
+
+![Handle design V2](handle-design-2.png)
+_Handle design V2_
+
+![The 3d print -- pretty rough](./IMG_0656.jpeg)
+_The 3d print -- pretty rough_
+
+I sanded the new handles and, after painting the spinners, assembled everything together.
+
+![The assembled inner section](./IMG_0680.jpeg)
+_The assembled inner section_
+
+### Final Result
+
+![Closeup of the spinner and handle design](../abacusynth-fabrication/final-photos/1O7A8628.jpg)
+_Closeup of the spinner and handle design_

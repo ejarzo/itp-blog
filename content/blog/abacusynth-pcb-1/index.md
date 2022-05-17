@@ -1,5 +1,5 @@
 ---
-title: 'Abacusynth PCB Development'
+title: 'Abacusynth: PCB Development'
 date: '2022-04-11'
 description: ''
 tags:
@@ -10,7 +10,9 @@ tags:
 ![Sketch of my thesis project: Abacusynth](thesis-sketch2.jpeg)
 _Sketch of my thesis project: Abacusynth_
 
-For my thesis project I am creating a synthesizer inspired by an abacus. Its interface consists of four rods, each holding a spinning object. These four objects represent oscillators in the synth. A user can spin them and move them left and right along the rod. Each rod needs a distance sensor facing inwards to measure the object's position and an encoder facing outwards which is used to adjust the harmonic of the oscillator and change the waveform. A breakbeam sensor is used to detect rotation, but this is separate from the PCB -- for that I am using [these sensors](https://www.adafruit.com/product/2167).
+For my [thesis project](/abacusynth-overview) I am creating a synthesizer inspired by an abacus. Its interface consists of four rods, each holding a spinning object. These four objects represent oscillators in the synth. A user can spin them and move them left and right along the rod. Each rod needs a distance sensor facing inwards to measure the object's position and an encoder facing outwards which is used to adjust the harmonic of the oscillator and change the waveform. A breakbeam sensor is used to detect rotation, but this is separate from the PCB -- for that I am using [these sensors](https://www.adafruit.com/product/2167).
+
+## Board Design
 
 ![PCB Schematic](PCB-schematic.png)
 _PCB Schematic_
@@ -20,7 +22,20 @@ _PCB board design_
 
 The board runs on 2.8V -- a requirement of the [VL6180X](https://cdn-learn.adafruit.com/assets/assets/000/037/608/original/VL6180X_datasheet.pdf) distance sensor. It is single sided, since the sensor faces forward and the encoder sits on the back, meaning all connections are on the front. The schematic is pretty simple, including pulll-up resistors for the SDA and SCL connections and capacitors to help smooth the signal.
 
-[Bill of materials](https://octopart.com/bom-tool/UFXsHCWY)
+## Bill of Materials
+
+<table style="line-height: 1; font-size: 0.8em">
+<tr><td><b>Part</b></td><td><b>Value</b></td><td><b>Device</b></td><td><b>Package</b></td><td><b>Description</b></td></tr>
+<tr><td>C1</td><td>10uf</td><td>COMPONENT_CAP-0805</td><td>0805</td><td>Capacitor</td></tr>
+<tr><td>C4</td><td>0.1uF</td><td>COMPONENT_CAP-0805</td><td>0805</td><td>Capacitor</td></tr>
+<tr><td>MT3</td><td>PEC11R-4215F-S0024</td><td>PEC11R-4215F-S0024</td><td>XDCR_PEC11R-4215F-S0024</td><td>Incremental Encoder, 12 Mm, Contact Rating 10 Ma - 5 Vdc Check availability</td></tr>
+<tr><td>SCL_PULLUP</td><td>10k</td><td>COMPONENT_RESISTOR-0805</td><td>0805</td><td></td></tr>
+<tr><td>SDA_PULLUP</td><td>10k</td><td>COMPONENT_RESISTOR-0805</td><td>0805</td><td></td></tr>
+<tr><td>U$1</td><td>HEADER-7-DIP</td><td>HEADER-7-DIP</td><td>HEADER-7-DIP</td><td>NPTC081KFXC-RC: Vertical Female SMD Headers</td></tr>
+<tr><td>U1</td><td>VL6180X</td><td>VL6180X</td><td>VL6180</td><td>VL6180x Proximity and Light Sensor with Gesture Recognition</td></tr>
+</table>
+
+<!-- [Bill of materials](https://octopart.com/bom-tool/UFXsHCWY) -->
 
 ## Milling V1
 
