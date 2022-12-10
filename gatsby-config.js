@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `ITP Notebook`,
+    title: `ITP Notebook [2020 - 2022]`,
     author: {
       name: `Elias Jarzombek`,
-      summary: `muscian and developer`,
+      summary: `musician and developer`,
     },
     description: `ITP Notebook`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`, // TODO
+    siteUrl: `https://itp.eliasjarzombek.com//`, // TODO
     socialUrls: {
       portfolio: 'https://eliasjarzombek.com',
       github: 'https://github.com/ejarzo',
@@ -63,7 +63,7 @@ module.exports = {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `itp.eliasjarzombek.com`,
-        customDomain: 'sts.itp.eliasjarzombek.com',
+        // customDomain: 'sts.itp.eliasjarzombek.com',
       },
     },
     // `gatsby-plugin-feed`,

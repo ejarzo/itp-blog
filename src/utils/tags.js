@@ -1,8 +1,8 @@
 export const TAGS = {
   PHYSICAL_COMPUTING: { label: 'Physical Computing', color: '#db8915' },
   CODE_OF_MUSIC: { label: 'Code of Music', color: '#9fa0f4' },
-  VIDEO_AND_SOUND: { label: 'Video and Sound', color: '#8cd8bb' },
-  ANIMATION: { label: 'Animation', color: '#dd7385' },
+  VIDEO_AND_SOUND: { label: 'Video and Sound', color: '#107c53' },
+  ANIMATION: { label: 'Animation', color: '#990D61' },
   ICM: { label: 'ICM: Media', color: '#56bcc9' },
   MUSIC_INTERACTION_DESIGN: {
     label: 'Music Interaction Design',
@@ -10,11 +10,11 @@ export const TAGS = {
   },
   NATURE_OF_CODE: {
     label: 'Nature of Code',
-    color: '#da67e5',
+    color: '#A04CA8',
   },
   FAB: {
     label: 'Intro to Fabrication',
-    color: '#c6963d',
+    color: '#937901',
   },
   SIGNALS_CALLS_MARCHES: {
     label: 'Signals, Calls, and Marches',
@@ -26,7 +26,7 @@ export const TAGS = {
   },
   DIGIFAB: {
     label: `Digital Fabrication`,
-    color: '#f455bf',
+    color: '#8A3B5B',
   },
   NIME: {
     label: `NIME`,
@@ -35,11 +35,11 @@ export const TAGS = {
   HOMEMADE_HARDWARE: {
     label: `Homemade Hardware`,
     color: '#598bf7',
-    isCurrent: true,
+    // isCurrent: true,
   },
   THESIS: {
     label: `Thesis`,
-    color: '#ef1032',
-    isCurrent: true,
+    color: '#b7011d',
+    // isCurrent: true,
   },
 };

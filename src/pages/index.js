@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
           marginBottom: rhythm(2),
         }}
       >
-        <h3 style={{ margin: '0' }}>Current</h3>
+        {/* <h3 style={{ margin: '0' }}>Current</h3> */}
         <div
           style={{
             paddingBottom: rhythm(0.5),
@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
         >
           <TagsList tags={tags.filter((tag) => TAGS[tag].isCurrent)} />
         </div>
-        <h3 style={{ margin: '0' }}>Past</h3>
+        <h3 style={{ margin: '0' }}>Courses</h3>
         <TagsList tags={tags.filter((tag) => !TAGS[tag].isCurrent)} />
       </div>
 
